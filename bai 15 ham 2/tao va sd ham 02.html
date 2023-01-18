@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao va sd ham 02</title>
+</head>
+<body>
+<!--<h5>bai 1</h5>-->
+<!--<script>-->
+<!--  let a=+prompt("nhap a");-->
+<!--  function tinhbp(a){-->
+<!--    b=Math.pow(a,2);-->
+<!--  }-->
+<!--  tinhbp(a);-->
+<!--  alert(b)-->
+<!--</script>-->
+<!--<h4>bai2</h4>-->
+<!--<script>-->
+
+<!--  let a=+prompt("nhap r");-->
+<!--  chuvi(a);-->
+<!--  dientich(a);-->
+<!--  function chuvi(){-->
+<!--    b= (a*2)*Math.PI-->
+<!--    document.write("chu vi la "+ b +"<br>");-->
+<!--  }-->
+<!--  function dientich(){-->
+<!--    c=Math.PI*Math.pow(a,2)-->
+<!--  }-->
+<!--  document.write("din tich la "+ c)-->
+
+<!--</script>-->
+<!--<h4>bai 3</h4>-->
+<!--<script>-->
+<!--  let a=+prompt("nhap a");-->
+<!--  let b=1;-->
+<!--  function giaithua(){-->
+<!--    for (let i = 1; i <=a ;i++) {-->
+<!--      b*=i;-->
+
+<!--    }document.write(b);-->
+<!--  }-->
+<!--  giaithua(a);-->
+<!--</script>-->
+<!--<h4>bai 4</h4>-->
+<!--<script>-->
+<!--  let a=+prompt("nhap a");-->
+<!--function kitu(){-->
+<!--  b=a*1;-->
+<!--  if (b===a){-->
+<!--    document.write("true");-->
+
+<!--  }else {-->
+<!--    document.write("false");-->
+<!--  }-->
+<!--}-->
+<!--  kitu(a);-->
+<!--</script>-->
+<!--<h4>bai5</h4>-->
+<!--<script>-->
+<!--  let a=prompt("nhap a");-->
+<!--  let b=prompt("nhap b");-->
+<!--  let c=prompt("nhap c");-->
+<!--  function sosanh(){-->
+<!--      if (a>b){-->
+<!--          if (a>c){-->
+<!--              document.write(a+"la max");-->
+<!--          }else {-->
+<!--              document.write(c+"la max");-->
+<!--          }-->
+<!--      }else if (b>c){-->
+<!--          document.write(b+" la max");-->
+<!--      }else {-->
+<!--          document.write(c+" la max");-->
+<!--      }-->
+<!--  }sosanh();-->
+<!--</script>-->
+<!--<h4>bai 6</h4>-->
+<!--<script>-->
+<!--    let a=+prompt("nhap a");-->
+<!--    function kiemtra(){-->
+<!--        if (a>0){-->
+<!--            document.write("true");-->
+<!--        }else {-->
+<!--            document.write("false");-->
+<!--        }-->
+<!--    }kiemtra();-->
+<!--</script>-->
+<!--<h4>bai7</h4>-->
+<!--<script>-->
+<!--    let a=+prompt("nhap a");-->
+<!--    let b=+prompt("nhap b");-->
+<!--    let c=0;-->
+<!--    function doicho(){-->
+<!--        c=a;-->
+<!--        a=b;-->
+<!--        b=c;-->
+<!--        document.write(a +"<br>");-->
+<!--        document.write(b);-->
+<!--    }-->
+<!--    doicho();-->
+<!--</script>-->
+<!--<h4>bai 8</h4>-->
+<!--<script>-->
+<!--    let a=[1,2,3,4,5,6,7,8,9,0];-->
+<!--    function doicho() {-->
+<!--        b = a.reverse();-->
+<!--        document.write(b)-->
+<!--    }-->
+<!--    doicho(a);-->
+<!--</script>-->
+<h4>bai 9</h4>
+<script>
+    let a = prompt("nhap vao a");
+    let b = prompt("nhap vao b");
+    c = a.split("");
+
+    function kiemtraso() {
+        let d = 0;
+        let e = false;
+        for (let i = 0; i < c.length; i++) {
+            if (b === c[i]) {
+                d++;
+                e = true
+            }
+        }
+        if (e == true) {
+            document.write("có" + d + "lân xuất hiện");
+        } else {
+            document.write("-1")
+        }
+
+    }
+
+    kiemtraso()
+</script>
+</body>
+</html>
