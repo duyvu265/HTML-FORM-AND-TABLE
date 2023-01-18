@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h4>bai1</h4>-->
+<!--<script>-->
+<!--    function xinchao(){-->
+<!--        document.write("xin chao");-->
+<!--    }-->
+<!--    xinchao()-->
+<!--</script>-->
+<!--<h4>bai 2</h4>-->
+<!--<script>-->
+<!--    let a=+prompt("nhap so a");-->
+<!--    function tanggt(a) {-->
+<!--        a++;-->
+<!--        alert(a)-->
+<!--    }-->
+<!--    tanggt(a);-->
+<!--</script>-->
+<!--<h4>bai3</h4>-->
+<!--<script>-->
+<!--    let a=+prompt("nhap a");-->
+<!--    let b=+prompt("nhap b");-->
+<!--    ketqua()-->
+<!--    function ketqua(){-->
+<!--        if (a>b){-->
+<!--            alert("a lớn hơn b");-->
+<!--        }else {-->
+<!--            c=a+b;-->
+<!--            alert(c)-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--<h4>bai 4</h4>;-->
+<!--<script>-->
+<!--    function addnumber(){-->
+<!--        firstnum=4;-->
+<!--        secondnum=8;-->
+<!--        result= firstnum+secondnum;-->
+<!--        alert(result)-->
+<!--        return result;-->
+
+<!--    }-->
+<!--    result=0;-->
+<!--    result=addnumber();-->
+<!--    alert(result)-->
+<!--</script>-->
+<h4>bai 5</h4>
+<script>
+    let a = prompt("nhập tên ngôi sao ");
+    let b = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let c = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function timkiem(a) {
+        console.log(a)
+        let d = -1;
+        for (let i = 0; i < b.length; i++) {
+            if (a === b[i]) {
+                d = i;
+                console.log(d);
+                break;
+            }else {
+                alert("nhap lai");
+                break;
+            };
+        }
+        if (d >= 0) {
+            alert(c[d]);
+        }
+    }
+
+    timkiem(a);
+</script>
+
+</body>
+</html>
