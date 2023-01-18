@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen dôi</title>
+</head>
+<body>
+<script>
+    let a = +prompt("nhap a");
+    tinhfoot(a);
+    // nhap vao meter
+    let b = +prompt("nhap b");
+    tinhmeter(b);
+    //     nhap vao feet
+    if (a < 0) {
+        document.write("hay nhap lai");
+        //     kiem tra a co lon hon khong hay khong
+    }
+    if (b < 0) {
+        document.write("hay nhap lai");
+    }
+    function tinhfoot(a) {
+        c = 3.279 * a;
+        document.write("bằng " + c + "feet" +"<br>")
+        return;
+    }
+    function tinhmeter(b) {
+        d = 0.305 * b;
+        document.write("bằng " + d + "meter");
+        return
+    }
+    tinhmeter(b);
+    tinhfoot(a)
+
+</script>
+</body>
+</html>
