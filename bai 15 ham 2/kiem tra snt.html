@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>so nguyen to</title>
+</head>
+<body>
+<script>
+  let a = +prompt("nhập số cần kiểm tra");
+
+  function kiemtra(a) {let b = true;
+
+    if (a < 2) {
+      b = false;
+      document.write(a + " khong la snt");
+    } else {
+      for (let i = 2; i < a; i++) {
+        if (a % i == 0) {
+          b = false;
+          break;
+
+        }
+      }
+    }
+    if (b == true) {
+      document.write(a + " la snt");
+    } else {
+      document.write(a + "khong la snt");
+    }
+  }
+
+  kiemtra(a)
+
+</script>
+</body>
+</html>
